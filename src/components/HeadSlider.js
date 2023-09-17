@@ -13,6 +13,8 @@ export default class HeadSlider extends Component {
       slidesToScroll: 1,
       autoplay: true,
       fade: true,
+      touchMove: false,
+      focusOnSelect: false
     };
     return (
       <div className="head-slides">

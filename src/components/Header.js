@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaCartShopping, FaCirclePlus } from "react-icons/fa6";
 import Order from "./Order";
 import HeadSlider from "./HeadSlider";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const showOrders = (props) => {
   let summa = 0;
@@ -65,6 +66,7 @@ export default function Header(props) {
       <div onClick={() => setCartOpen((cartOpen = false))}>
         <HeadSlider />
       </div>
+      <div className="down-from-head"><FaAnglesDown/> </div>
     </header>
   );
 }

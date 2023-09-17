@@ -128,6 +128,13 @@ header .shop-cart {
   color: #222;
 }
 
+.down-from-head {
+  color: #fff;
+  background-color: var(--primari-color);
+  text-align: center;
+  padding: 8px 0;
+}
+
 .cart-empty {
   padding: 1rem;
 }
@@ -176,7 +183,7 @@ header .order-item .delete-from-order {
 
 header .head-slides {
   overflow: hidden;
-  height: 100vh;
+  height: 90vh;
 }
 
 .head-slides img {
@@ -184,7 +191,7 @@ header .head-slides {
   object-fit: cover;
   object-position: center;
   overflow: hidden;
-  height: 100vh;
+  height: 90vh;
 }
 
 .category-section {
